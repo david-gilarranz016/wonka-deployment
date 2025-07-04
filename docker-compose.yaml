@@ -1,0 +1,25 @@
+---
+version: '2'
+services:
+  redis:
+    image: redis:8.0-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    hostname: redis
+    command: redis-server
+  api:
+    build: https://github.com/david-gilarranz016/wonka-generator.git
+    ports:
+      - '8080:8000'
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    links:
+      - redis
+  frontend:
+    build: https://github.com/david-gilarranz016/wonka-front-end.git
+    ports:
+      - '8081:8080'
