@@ -15,10 +15,11 @@ When('Navigates to the Shell selection screen') do
   @driver.find_element(xpath: '//button[@class="btn"]').click
 end
 
-Then('He is presented with the {string} option') do |string|
-  button = @driver.find_element(xpath: "//*/button[contains(text(), '#{string}')]")
-  pp button.text
+Then('He is presented with the {string} option') do |technology|
+  # Search for a button with the technology as content
+  button = @driver.find_element(xpath: "//*/button[contains(text(), '#{technology}')]")
 
+  # Expect the button to exist
   expect(button.nil?).to be_falsy
 
   @driver.close
