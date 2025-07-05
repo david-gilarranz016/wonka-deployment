@@ -7,7 +7,7 @@ Feature: Configure shell technology
         Given A user wants to configure the shell technology
         When The user accesses the front-end
         And Navigates to the Shell selection screen
-        Then He is presented with the "<technology>" option
+        Then He is presented with the "<technology>" shell technology 
 
         Examples:
 

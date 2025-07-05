@@ -15,7 +15,7 @@ And('Navigates to the Shell selection screen') do
   @driver.find_element(xpath: '//button[@class="btn"]').click
 end
 
-Then('He is presented with the {string} option') do |technology|
+Then('He is presented with the {string} shell technology') do |technology|
   # Search for a button with the technology as content
   button = @driver.find_element(xpath: "//*/button[contains(text(), '#{technology}')]")
 
