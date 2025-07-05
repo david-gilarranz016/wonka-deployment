@@ -11,7 +11,7 @@ When('The user accesses the front-end') do
   @driver.get('http://localhost:8081/')
 end
 
-When('Navigates to the Shell selection screen') do
+And('Navigates to the Shell selection screen') do
   @driver.find_element(xpath: '//button[@class="btn"]').click
 end
 
