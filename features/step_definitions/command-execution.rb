@@ -25,7 +25,7 @@ end
 
 When('Uploads the shell to a server') do
   # Start a server on the downloads folder to serve the web-shell
-  @server_pid = spawn('php -S 127.0.0.1:1234')
+  @server_pid = spawn('php -S 127.0.0.1:1234 2>/dev/null')
 end
 
 Then('He can use the client to execute the {string} command') do |command|
@@ -64,6 +64,7 @@ Then('He can use the client to execute the {string} command') do |command|
   Process.kill(:KILL, @server_pid)
 
   # Remove temp files and directory
+  File.unlink('.webshell_history')
   File.unlink('./downloads/shell.php')
   File.unlink('./downloads/client.py')
   Dir.rmdir('./downloads')
