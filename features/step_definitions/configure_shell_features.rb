@@ -14,7 +14,7 @@ And('Selects the {string} technology') do |technology|
   @driver.find_element(xpath: "//*/button[contains(text(), '#{technology}')]").click
 end
 
-And('Navigates to the next screen') do
+And('Navigates to the feature selection screen') do
   # Look for the navigation button and press it
   @driver.find_element(xpath: '//*/button[@id="navigation-button"]').click
 end

@@ -8,7 +8,7 @@ Feature: Configure shell features
         When The user accesses the front-end
         And Navigates to the Shell selection screen
         And Selects the "<technology>" technology
-        And Navigates to the next screen
+        And Navigates to the feature selection screen
         Then He is presented with the "<feature>" feature
 
         Examples:
