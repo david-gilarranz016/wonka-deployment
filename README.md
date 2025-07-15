@@ -35,8 +35,8 @@ Once deployed, the application will be accessible via the following URL:
 
 - [http://localhost:8081](http://localhost:8081)
 
-If the predetermined ports the user's needs, the `docker-compose.yaml` file can be modified to deploy
-the application with a different configuration.
+If the predetermined ports are not suitable for the user's needs, the `docker-compose.yaml`
+file can be modified to deploy the application with a different configuration.
 
 ## Instructions for Developers
 
