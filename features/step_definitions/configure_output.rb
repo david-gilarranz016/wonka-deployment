@@ -7,6 +7,7 @@ When('Navigates to the output selection screen') do
   # Select the command execution feature and navigate to the next screen
   @driver.find_element(xpath: '//*/button[contains(text(), "Command Execution")]').click
   @driver.find_element(xpath: '//*/button[@id="navigation-button"]').click
+  sleep 1
 end
 
 Then('He is presented with the {string} output option') do |option|

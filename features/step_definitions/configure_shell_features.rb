@@ -17,6 +17,7 @@ end
 And('Navigates to the feature selection screen') do
   # Look for the navigation button and press it
   @driver.find_element(xpath: '//*/button[@id="navigation-button"]').click
+  sleep 1
 end
 
 Then('He is presented with the {string} feature') do |feature|

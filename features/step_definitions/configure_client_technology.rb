@@ -7,6 +7,7 @@ When('Navigates to the client selection screen') do
   # Select an output format
   @driver.find_element(xpath: '//*/button[contains(text(), "PHP")]').click
   @driver.find_element(xpath: '//*/button[@id="navigation-button"]').click
+  sleep 1
 end
 
 Then('He is presented with the {string} client technology') do |technology|

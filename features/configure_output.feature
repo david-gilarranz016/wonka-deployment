@@ -1,4 +1,4 @@
-Feature: Configure output format
+Feature: RF-3 Configure output format
     A user wants to configure the generated shell's output format
 
     Scenario Outline: Configure output format

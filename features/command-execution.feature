@@ -1,4 +1,4 @@
-Feature: Command Execution
+Feature: RF-7 Command Execution
     A user wants to use the generated shell to execute commands
 
     Scenario Outline: Command Execution

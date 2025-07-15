@@ -13,6 +13,7 @@ end
 
 And('Navigates to the Shell selection screen') do
   @driver.find_element(xpath: '//button[@class="btn"]').click
+  sleep 1
 end
 
 Then('He is presented with the {string} shell technology') do |technology|

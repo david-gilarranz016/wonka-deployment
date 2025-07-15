@@ -1,4 +1,4 @@
-Feature: File Download
+Feature: RF-13 File Download
     A user wants to use the generated shell to extract files from the server
 
     Scenario Outline: File Download

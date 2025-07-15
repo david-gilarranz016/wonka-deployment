@@ -1,4 +1,4 @@
-Feature: Command History
+Feature: RF-9 Command History
     A user wants to generated shell to remember previous commands
 
     Scenario Outline: Command History

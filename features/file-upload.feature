@@ -1,4 +1,4 @@
-Feature: File Upload
+Feature: RF-12 File Upload
     A user wants to use the generated shell to upload files to the server
 
     Scenario Outline: File Upload

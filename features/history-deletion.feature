@@ -1,7 +1,7 @@
-Feature: Command Execution
+Feature: RF-11 History Deletion
     A user wants to be able to delete shell history from the generated web shell
 
-    Scenario Outline: Command Execution
+    Scenario Outline: History Deletion
         A user wants to be able to delete shell history from the generated web shell
 
         Given A user wants to be able to delete shell history from the generated web shell

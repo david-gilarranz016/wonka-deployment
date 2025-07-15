@@ -1,4 +1,4 @@
-Feature: Configure client technology
+Feature: RF-4 Configure client technology
     A user wants to configure the technology for the generated client
 
     Scenario Outline: Configure client technology

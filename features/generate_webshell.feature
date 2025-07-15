@@ -1,7 +1,7 @@
-Feature: Generate WebShell
+Feature: RF-5 Generate WebShell
     A user wants to download the generated web shell
 
-    Scenario Outline: Configure client technology
+    Scenario Outline: Generate WebShell
         A user wants to download the generated web shell
         
         Given A user wants to download the generated web shell

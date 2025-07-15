@@ -7,6 +7,7 @@ When("Selects the {string} client technology") do |client|
   # Select the python technology and navigate to the next screen
   @driver.find_element(xpath: "//*/button[contains(text(), '#{client}')]").click
   @driver.find_element(xpath: '//*/button[@id="navigation-button"]').click
+  sleep 1
 end
 
 Then('He is presented with the {string} shell download link') do |technology|

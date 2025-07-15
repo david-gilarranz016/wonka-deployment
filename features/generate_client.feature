@@ -1,4 +1,4 @@
-Feature: Generate Client
+Feature: RF-6 Generate Client
     A user wants to download the generated web shell client
 
     Scenario Outline: Generate Client

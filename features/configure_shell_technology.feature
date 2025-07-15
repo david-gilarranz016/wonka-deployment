@@ -1,4 +1,4 @@
-Feature: Configure shell technology
+Feature: RF-1 Configure shell technology
     A user wants to configure the target technology for the Web Shell
 
     Scenario Outline: Configure shell technology

@@ -1,4 +1,4 @@
-Feature: Configure shell features 
+Feature: RF-2 Configure shell features 
     A user wants to configure the buil-in features for the Web Shell
 
     Scenario Outline: Configure shell features

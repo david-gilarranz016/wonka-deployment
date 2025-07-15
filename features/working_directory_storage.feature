@@ -1,4 +1,4 @@
-Feature: Working Directory Storage
+Feature: RF-8 Working Directory Storage
     A user wants the generated shell to remember the working directory
 
     Scenario Outline: Working Directory Storage

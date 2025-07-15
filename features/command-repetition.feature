@@ -1,7 +1,7 @@
-Feature: Command Repetition
+Feature: RF-10 Command Repetition
     A user wants to use the generated shell to repeat previously executed commands
 
-    Scenario Outline: Command Execution
+    Scenario Outline: Command Repetition
         A user wants to use the generated shell to repeat previously executed commands        
 
         Given A user wants to use the generated shell to repeat previously executed commands        
